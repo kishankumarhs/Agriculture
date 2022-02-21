@@ -1,0 +1,21 @@
+.notFound__img {
+    width: 30%;
+    object-fit: contain;
+    margin: 0 auto;
+
+}
+
+.not__found {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding: 2rem;
+}
+
+.not {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+}

@@ -1,0 +1,46 @@
+.services {
+    width: 100%;
+    overflow-x: hidden;
+    font-family: "Manrope", sans-serif;
+}
+
+img {
+    object-fit: contain;
+}
+
+.bg-yellow {
+    /* background: #eff231; */
+    background: linear-gradient(90deg, #aeb103, #eff231);
+}
+
+.text {
+    color: #111
+}
+
+.services__image_holder {
+    padding: 0;
+    width: 50%;
+}
+
+.services__image_holder img {
+    width: 100%;
+    height: 500px;
+    object-fit: fill;
+}
+
+.info {
+    padding: 20px;
+}
+
+.info p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: var(--bs-primary);
+}
+
+.services__title {
+    font-family: "Overpass", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    text-transform: uppercase;
+}

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\Web Dev\\pavan"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "pavan"
+	}
+}

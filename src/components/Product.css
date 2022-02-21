@@ -1,0 +1,28 @@
+.products__image {
+    justify-self: center;
+    width: 40%;
+    margin: 10px auto;
+}
+
+.single_product {
+    background: #ffeda6 !important;
+    border: none;
+}
+
+.products__desc {
+    font-size: small;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #888;
+    width: 40ch;
+}
+
+.products__price {
+    margin: 10px 0;
+    color: var(--bs-secondary);
+
+}
+
+.Products__btn {
+    width: 25%;
+}
