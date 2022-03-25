@@ -1,0 +1,36 @@
+.productDetails__image img {
+    width: 400px;
+    height: 400px;
+
+}
+
+.productDetails__info {}
+
+.productDetails__desc {
+    color: var(--bs-secondary);
+    /* background-color: #ecffff; */
+
+}
+
+@media (max-width: 575.98px) {
+    .productDetails__image {
+        padding: 20px;
+        margin: 0;
+    }
+
+    .productDetails__image img {
+        width: 100%;
+        height: max-content;
+
+    }
+}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 991.98px) {}
+
+
+@media (max-width: 1199.98px) {}
+
+
+@media (max-width: 1399.98px) {}

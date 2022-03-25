@@ -65,3 +65,95 @@
     width: 100%;
     object-fit: contain;
 }
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.menu_sm_colse {
+    display: none !important;
+}
+
+.navbar-nav {
+    margin-left: auto !important;
+    margin-right: 40px;
+    padding: 20px 0px;
+}
+
+@media (max-width: 575.98px) {
+    .menu__logo img {
+        width: 50px;
+        object-fit: contain;
+
+    }
+
+    .home__cars_img {
+        height: 300px !important;
+    }
+
+    .nav-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+
+
+    .menu_sm_colse {
+        display: block !important;
+    }
+
+
+}
+
+.nav-link span {
+    margin: 0 2px;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+
+.nav-item:hover {
+    background: #fff;
+    color: var(--bs-secondary) !important;
+
+}
+
+@media (max-width: 767.98px) {
+    .nav-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .menu_sm_colse {
+        display: block !important;
+    }
+
+    .navbar-nav {
+        margin: 0;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .nav-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .menu_sm_colse {
+        display: block !important;
+    }
+}
+
+
+@media (max-width: 1199.98px) {}
+
+
+@media (max-width: 1399.98px) {}

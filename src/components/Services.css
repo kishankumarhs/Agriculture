@@ -1,7 +1,8 @@
 .services {
     width: 100%;
     overflow-x: hidden;
-    font-family: "Manrope", sans-serif;
+    background: #ddd;
+    font-family: "Roboto", sans-serif;
 }
 
 img {
@@ -13,34 +14,75 @@ img {
     background: linear-gradient(90deg, #aeb103, #eff231);
 }
 
+
+
 .text {
     color: #111
 }
 
 .services__image_holder {
-    padding: 0;
-    width: 50%;
+    display: flex;
+    flex: 0.9;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 10px;
+    /* height: 80px; */
 }
 
 .services__image_holder img {
-    width: 100%;
-    height: 500px;
-    object-fit: fill;
+    width: 30px;
+    margin: 0;
+    margin: 5px 0;
+    object-fit: contain;
+    object-position: center;
 }
 
-.info {
-    padding: 20px;
-}
 
-.info p {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    color: var(--bs-primary);
-}
 
 .services__title {
-    font-family: "Overpass", sans-serif;
-    font-weight: 600;
-    font-size: 2rem;
+    font-weight: 500;
+    font-size: 0.97rem;
     text-transform: uppercase;
 }
+
+.s {
+    display: flex;
+}
+
+.service__item {
+    cursor: pointer;
+    transition: all ease-in-out 500ms;
+}
+
+.service__item:hover {
+    transform: translate3d(0px, 0, -5px) scale(1.04);
+}
+
+.arrow-icon {
+    display: grid;
+    place-items: center;
+    flex: 0.1;
+}
+
+.arrow-icon .MuiSvgIcon-root {}
+
+@media (max-width: 767px) {
+    .service__item {
+        margin: 10px 0;
+    }
+
+
+}
+
+
+@media (max-width: 575.98px) {}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 991.98px) {}
+
+
+@media (max-width: 1199.98px) {}
+
+
+@media (max-width: 1399.98px) {}

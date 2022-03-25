@@ -4,34 +4,56 @@
   margin: 0;
   padding: 0;
   /* font-family: 'Manrope', sans-serif; */
-  font-family: 'Overpass', sans-serif;
-  /* font-family: 'Roboto', sans-serif; */
+  /* font-family: 'Overpass', sans-serif; */
+  font-family: 'Roboto', sans-serif;
 
 }
 
 :root {
   --bs-primary: #ffb900;
+  --primary-main: #f5b914;
+  --primary-light: #ffda74;
+  /* --bs-secondary: #0046ff; */
   --bs-secondary: #111;
+  --secondary-main: #0046ff;
+  --secondary-dark: #070707;
+  --secondary-light: #595959;
+  --bs-main-color: #D6E4FF;
+  /* --bs-main-color: #cedbf4; */
+
 }
 
 .Button-1 {
-  background: var(--bs-primary) ;
-  color: var(--bs-secondary) ;
-  border: solid 1px var(--bs-primary) ;
-  line-height:40px;
+  background: var(--bs-primary);
+  color: var(--bs-secondary);
+  border: solid 1px var(--bs-primary);
+  line-height: 40px;
+  transition: all cubic-bezier(0.165, 0.84, 0.44, 1) .5s;
 }
 
 .Button-1:hover {
-  background: transparent;
+  background: #eaae0b;
   border: solid 1px var(--bs-primary);
-  color: var(--bs-secondary) ;
+  color: var(--bs-secondary);
 }
 
+.Button-2 {
+  background: var(--secondary-dark);
+  color: var(--bs-white);
+  border: none;
+  line-height: 40px;
+  transition: all cubic-bezier(0.165, 0.84, 0.44, 1) .5s;
+}
+
+.Button-2:hover {
+  background: var(--secondary-main);
+  color: var(--bs-white);
+}
 
 
 
 body {
-  background: #fff;
+  background: #FFF;
   overflow-x: hidden;
   width: 100vw;
 
@@ -51,4 +73,22 @@ a:hover {
   background: #fff;
   width: 100%;
   overflow-x: hidden;
+
+}
+
+.loading {
+  background: inherit;
+  width: 100%;
+  height: 100%;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

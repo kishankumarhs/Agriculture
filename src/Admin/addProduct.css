@@ -1,0 +1,37 @@
+.addproduct__imageContorls {}
+
+.cropImage {
+    position: relative;
+    height: 300px;
+    width: 75%;
+}
+
+.addProducts__info {
+    width: 75%;
+}
+
+@media (max-width: 575.98px) {
+    .addproduct__imageContorls {
+        margin: 30px 0;
+    }
+
+    .cropImage {
+        height: 200px;
+        width: 100%;
+
+    }
+
+    .addProducts__info {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 991.98px) {}
+
+
+@media (max-width: 1199.98px) {}
+
+
+@media (max-width: 1399.98px) {}

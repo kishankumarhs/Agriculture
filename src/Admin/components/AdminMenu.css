@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.admin__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+
+}
+
+.adminMenu {
+    width: 100%;
+}
+
+.admin__menu_items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    line-height: 40px;
+    width: 100%;
+    background: var(--secondary-main);
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 500ms;
+}
+
+.MuiDrawer-paper {
+    background: var(--secondary-main) !important;
+    width: 300px;
+
+}
+
+.MuiListItemIcon-root {
+    color: #fff !important;
+}
+
+.MuiDrawer-paper a {
+    color: #fff !important;
+}
+
+.MuiDrawer-root a {
+    color: var(--bs-white);
+}
+
+.MuiDrawer-root {
+    background: var(--secondary-main);
+    color: var(--bs-white);
+    width: 300px;
+}
+
+.admin__menu_items:hover {
+    background: var(--secondary-light);
+}
+
+a {
+    color: var(--bs-white);
+}
+
+a:hover {
+    color: var(--bs-white);
+}

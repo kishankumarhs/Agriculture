@@ -1,0 +1,42 @@
+.profile__avatar {
+    padding: 20px;
+}
+
+.profilelist a {
+    color: black;
+    text-align: center;
+    width: 100%;
+}
+
+.profilelist {
+
+    width: 100%;
+    text-align: center;
+}
+
+.profilelist ul {
+    display: block;
+}
+
+.profilelist ul li {
+    line-height: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width: 575.98px) {
+    .tree {
+        transform: rotate(90deg);
+        margin: 3rem;
+    }
+}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 991.98px) {}
+
+
+@media (max-width: 1199.98px) {}
+
+
+@media (max-width: 1399.98px) {}

@@ -1,0 +1,10 @@
+ .Adminproducts {
+     background: #fff1d6;
+ }
+
+ .addProduct__img {
+     width: 100px;
+     height: 100px;
+     object-fit: fill;
+
+ }
